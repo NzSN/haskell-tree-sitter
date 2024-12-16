@@ -82,7 +82,7 @@ library
     exposed-modules:  TreeSitter.Wgsl
     autogen-modules:  Paths_tree_sitter_wgsl
     other-modules:    Paths_tree_sitter_wgsl
-    build-depends:    base ^>=4.15.1.0 && < 5 ,
+    build-depends:    base >=4.15.1.0 && < 5 ,
                       tree-sitter
     Include-dirs:     vendor/tree-sitter-wgsl/src
     install-includes: tree_sitter/parser.h
